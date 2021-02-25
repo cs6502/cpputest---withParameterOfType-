@@ -24,6 +24,7 @@ the define SHOW_EXPECTED_BEHAVIOR. Even both scenarios run with OK this might be
 an issue for more complex custom comparators.
 
 Suspected console output:
+```
 PostMessage - 0069faa8
 	MessageComparator - oExpected=0069fb30, oPosted=0069faa8
 		ID expected=eMsgDiameter, posted=eMsgDiameter -> PASS
@@ -42,3 +43,4 @@ PostMessage - 0069faa8
 	MessageComparator - oExpected=0069fb28, oPosted=0069faa8
 		ID expected=eMsgXPosition, posted=eMsgXPosition -> PASS
 OK (1 tests, 1 ran, 5 checks, 0 ignored, 0 filtered out, 0 ms)
+```
